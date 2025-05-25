@@ -8,7 +8,7 @@
     
     <link rel="stylesheet" href="/ValoWiki/styles/style.css">
     <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../components/Scripts/agentsScript.js">
+    <script src="../components/Scripts/agentsScript.js" defer></script>
     <script type="application/ld+json">
         {
         "@context": "https://schema.org",
@@ -16,248 +16,356 @@
         "name": "Valorant Agents - ValoWiki",
         "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
         "about": "Browse all Valorant agents with roles, abilities, and images.",
-        "hasPart": [
+        "mainEntity": [
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Brimstone",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "A tactical commander with powerful smokes.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Controller/Brimstone/PFP.webp",
-            "characterClass": "Controller",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Controller"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/brimstone/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Viper",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "A deadly chemist wielding poisonous gas.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Controller/Viper/PFP.webp",
-            "characterClass": "Controller",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Controller"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/viper/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Phoenix",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "A fiery duelist with self-healing abilities.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Duelist/Phoenix/PFP.webp",
-            "characterClass": "Duelist",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Duelist"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/phoenix/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Sage",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "A healer who can revive fallen teammates.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Sentinel/Sage/PFP.webp",
-            "characterClass": "Sentinel",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Sentinel"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/sage/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Sova",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "An archer with recon abilities to locate enemies.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Iniciator/Sova/PFP.webp",
-            "characterClass": "Iniciator",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Iniciator"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/sova/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Cypher",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "A surveillance expert who gathers intel on enemies.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Sentinel/Cypher/PFP.webp",
-            "characterClass": "Sentinel",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Sentinel"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/cypher/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Reyna",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "A vampiric duelist who thrives on enemy kills",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Duelist/Reyna/PFP.webp",
-            "characterClass": "Duelist",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Duelist"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/reyna/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Killjoy",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "A genius inventor who secures the battlefield with gadgets.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Sentinel/Killjoy/PFP.webp",
-            "characterClass": "Sentinel",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Sentinel"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/killjoy/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Breach",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "An initiator who uses seismic force to clear obstacles.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Iniciator/Breach/PFP.webp",
-            "characterClass": "Iniciator",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Iniciator"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/breach/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Omen",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "A mysterious controller who shrouds the battlefield in darkness.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Controller/Omen/PFP.webp",
-            "characterClass": "Controller",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Controller"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/omen/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Jett",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "An agile duelist who dominates with speed and precision.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Duelist/Jett/PFP.webp",
-            "characterClass": "Duelist",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Duelist"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/jett/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Raze",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "An explosive duelist who specializes in heavy damage.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Duelist/Raze/PFP.webp",
-            "characterClass": "Duelist",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Duelist"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/raze/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Skye",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "An initiator who heals and scouts with nature's power.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Iniciator/Skye/PFP.webp",
-            "characterClass": "Iniciator",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Iniciator"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/skye/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Yoru",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "A duelist who manipulates reality to outflank enemies.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Duelist/Yoru/PFP.webp",
-            "characterClass": "Duelist",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Duelist"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/yoru/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Astra",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "A cosmic controller who shapes the battlefield with stars.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Controller/Astra/PFP.webp",
-            "characterClass": "Controller",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Controller"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/astra/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "KAY/O",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "An initiator robot who suppresses enemy abilities.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Iniciator/Kayo/PFP.webp",
-            "characterClass": "Iniciator",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Iniciator"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/kayo/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Chamber",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "A sentinel who uses precision weaponry and traps.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Sentinel/Chamber/PFP.webp",
-            "characterClass": "Sentinel",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Sentinel"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/chamber/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Neon",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "A duelist who sprints and slides with electric speed.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Duelist/Neon/PFP.webp",
-            "characterClass": "Duelist",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Duelist"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/neon/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Fade",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "An initiator who hunts enemies with nightmares.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Iniciator/Fade/PFP.webp",
-            "characterClass": "Iniciator",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Iniciator"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/fade/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Harbor",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "A controller who commands water to shield and block.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Controller/Harbor/PFP.webp",
-            "characterClass": "Controller",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Controller"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/harbor/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Gekko",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "An initiator who commands creatures to disrupt enemies.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Iniciator/Gekko/PFP.webp",
-            "characterClass": "Iniciator",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Iniciator"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/gekko/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Deadlock",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "A sentinel who deploys advanced barriers and traps.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Sentinel/Deadlock/PFP.webp",
-            "characterClass": "Sentinel",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Sentinel"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/deadlock/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Iso",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "A duelist who isolates enemies for one-on-one fights.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Duelist/Iso/PFP.webp",
-            "characterClass": "Duelist",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Duelist"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/iso/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Clove",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "A controller who manipulates life and death on the battlefield.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Controller/Clove/PFP.webp",
-            "characterClass": "Controller",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Controller"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/clove/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Vyse",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "A sentinel with advanced surveillance and defense tools.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Sentinel/Vyse/PFP.webp",
-            "characterClass": "Sentinel",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Sentinel"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/vyse/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Tejo",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "An initiator with unique tactical abilities.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Iniciator/Tejo/PFP.webp",
-            "characterClass": "Iniciator",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Iniciator"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/tejo/"
             },
             {
-            "@type": "VideoGameCharacter",
+            "@type": "Thing",
             "name": "Waylay",
             "url": "https://itsdeusi06.github.io/ValoWiki/pages/agents.html",
             "description": "A duelist who excels at ambush tactics.",
             "image": "https://itsdeusi06.github.io/ValoWiki/AgentsContent/Duelist/Waylay/PFP.webp",
-            "characterClass": "Duelist",
+            "additionalProperty": {
+                "@type": "PropertyValue",
+                "name": "Role",
+                "value": "Duelist"
+            },
             "sameAs": "https://playvalorant.com/en-us/agents/waylay/"
             }
         ]
