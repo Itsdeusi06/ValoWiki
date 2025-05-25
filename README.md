@@ -9,6 +9,7 @@ ValoWiki is a fan-made web project that serves as an informational wiki for the 
 - **Esports Page:** View teams, players, and match schedules for Valorant Champions Tour events.
 - **Responsive Design:** Optimized for desktop and mobile devices.
 - **Navigation Bar:** Quickly switch between Home, Agents, Skins, and Esports pages.
+- **JSON-LD microdata:** Each page have its own microdata, refering what is in that page.
 
 ## Project Structure
 
